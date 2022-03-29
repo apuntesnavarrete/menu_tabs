@@ -1,3 +1,44 @@
 body{
-    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.nav{
+    margin: 100px 0 0 100px;
+}
+
+.options{
+    display: inline;
+    padding: 5px 20px;
+    border: 1px solid burlywood;
+}
+.options:hover{
+    background-color: rgb(177, 148, 110);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border-color: black ;
+    transition: all 0.3s;
+}
+
+.contenidos{
+    margin: 20px 0 0 100px;
+    width: 400px;
+    height: 300px;
+    border: 1px solid burlywood;
+}
+
+.content_one{
+    
+}
+
+.content_two{
+    display: none;
+}
+
+.content_tree{
+    display: none;
+}
+
+.content_four{
+    display: none;
 }
